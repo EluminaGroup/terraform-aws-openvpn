@@ -180,7 +180,7 @@ variable "alb_ssl_policy" {
 
 # VPN_SERVICE
 variable "image" {
-  default = "learnawstechclub/openvpn:2.4.0"
+  default = "learnawstechclub/openvpn:1.0.0"
 }
 
 variable "requester_cidrs" {
